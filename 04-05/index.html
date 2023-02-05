@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jqueryrotate.2.1.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <p>
+        <b class='important-item'>Hello</b>
+    </p>
+
+    <hr />
+    <p>
+        <i>Hello</i>
+    </p>
+    <p>
+        <ul>
+            <li class='important-item important-size'>davs</li>
+            <li>sgas</li>
+            <li>adgad</li>
+        </ul>
+    </p>
+
+    <img src="02.png" id="rotateimg" style='width:50px'/>
+    <p>
+        <a href='https://google.com'>Google</a>
+    </p>
+
+    <script type="text/javascript">
+        var rotation = function () {
+            jQuery("#rotateimg").rotate({
+                angle: 0,
+                animateTo: 360,
+                callback: rotation
+            });
+        }
+        rotation();
+    </script>
+</body>
+
+</html>

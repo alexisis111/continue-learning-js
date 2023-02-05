@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jqueryrotate.2.1.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input type="text" value="Sanya" class="first-name" id="first-name" />
+    <input type="text" value="Gilev" class="last-name" id="last-name" />
+    <input type="text" value="Gnch" class="adress" id="adress" />
+
+    <select id="cities">
+        <option>Vbg</option>
+        <option selected='selected'>Spb</option>
+        <option>Msk</option>
+    </select>
+
+    <textarea  id="hobbies">Js, Css, Html</textarea>
+
+    <div>
+        <img id='wrapper-img' src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/5d/5d98b54a55f6eb9f50610e80b35962430cb68afc_medium.jpg">
+    </div>
+
+
+    <script type="text/javascript">
+
+        var firstNameEl= document.getElementById('first-name');
+        var lastNameEl= document.getElementById('last-name');
+        var adressEl = document.getElementById('adress');
+        var citiesEl= document.getElementById('cities');
+        var hobbiesEl= document.getElementById('hobbies');
+        var wrapperImg= document.getElementById('wrapper-img');
+
+        
+
+        /* alert(firstNameEl.value);
+        alert(lastNameEl.value);
+        alert(adressEl.value);
+        alert(citiesEl.value);
+        alert(hobbiesEl.value); */
+        alert(wrapperImg.src);
+
+    </script>
+</body>
+
+</html>

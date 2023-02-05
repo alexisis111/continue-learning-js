@@ -1,0 +1,20 @@
+.jskmb-calc {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 20px;
+}
+.jskmb-calc .operations-block button {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+.jskmb-calc .inputs-block .input-block {
+    display: inline-block;
+    padding: 10px;
+}
+.jskmb-calc .inputs-block .input-block label {
+    display: block;
+}
